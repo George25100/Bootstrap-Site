@@ -1,0 +1,102 @@
+body {
+    background-image: url("image/slider1.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+    .logo img {
+        height: 140px;
+        width: 160px;
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+
+@font-face {
+    font-family: myFont;
+    src: url("Family-Vacation.otf");
+}
+
+.title {
+    font-family: myFont;
+    background-color: #2a9958;
+    height: 130px;
+    width: 1110px;
+}
+
+    .title h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 35pt;
+        text-align: center;
+        color: #eef8ba;
+        text-shadow: 2px 2px 3px #262c05;
+        padding-top: 45px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+.menuV {
+    background-color: #672f07;
+    float: left;
+    margin: 0px;
+}
+
+    .menuV ul {
+        list-style-type: none;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        width: 290px;
+        color: white;
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+
+    .menuV li {
+        border: 1px solid #eff5ac;
+        padding: 10px 15px;
+        display: block;
+        height: 105px;
+        text-align: center;
+    }
+
+        .menuV li:hover {
+            background-color: #b79d86;
+        }
+
+        .menuV li a {
+            text-decoration: none;
+            color: white;
+        }
+
+            .menuV li a:hover {
+                font-weight: bold;
+            }
+
+.news {
+    background-color: #f8f7e6;
+    padding: 10px 10px 10px 10px;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+    height: 500px;
+}
+
+.footer {
+    background-color: #2a9958;
+    text-align: center;
+    font-size: 0.7em;
+    font-family: Arial;
+    padding: 20px 10px;
+    color: #eedfda;
+}
